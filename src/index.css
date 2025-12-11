@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(230, 225, 255, 0.87);
+  background-color: #fffafaf5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,4 +19,53 @@
   :root {
     background-color: #ffffff;
   }
+}
+
+.page-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/* Better headings */
+h1, h2 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Cleaner table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: left;
+}
+
+
+button {
+  padding: 0.45rem 0.85rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background: #4338ca;
 }
