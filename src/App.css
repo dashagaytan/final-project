@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 1.5rem;
-  background: #a4c3e1;
+  background: #9dc4f7;
   color: #6128cc;
   border-radius: 15px;
 }
@@ -26,11 +26,14 @@
 .navbar-logo {
   font-weight: 500;
   font-size: large;
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navbar-links a {
   margin-left: 1rem;
-  color: #3062c6;
+  color: #154fc2;
   text-decoration: none;
   font-size: 0.95rem;
 }
