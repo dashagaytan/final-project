@@ -123,3 +123,31 @@
   padding: 10px;
   text-align: center;
 }
+
+/* about me page */
+.about-container{
+  padding-top: 30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-img img{
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text{
+  max-width: 500px;
+}
+.about-text h1{
+  margin-bottom: 2px;
+  color: #635bd0;
+}
+
+.about-text p {
+  margin-bottom: 12px;
+}
