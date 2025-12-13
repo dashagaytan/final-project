@@ -44,7 +44,8 @@ export default function DreamTable({artPieces, onChange}){
         <>
         <section>
             <h2>Add Your Dreamy Art Pieces</h2>
-            <form onSubmit={handleSubmit}>
+
+            <form onSubmit={handleSubmit} className="art-form">
                 <input
                 name="title"
                 value={form.title}

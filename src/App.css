@@ -38,3 +38,71 @@
 .navbar-links a.active {
   border-bottom: 3px solid #635bd0;
 }
+
+/* art gallery page */
+
+.art-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+.art-form input {
+  background-color: white;
+  color: black;
+  border: 2px solid #635bd0;
+}
+
+.art-form button {
+  width: 220px;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+
+/* contact page */
+.contact-page{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-img{
+  width: 100%;
+  height:30vh;
+}
+
+.contact-img img{
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.form-section{
+  padding: 30px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.contact-form input{
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #635bd0;
+}
+
+.contact-form button{
+  cursor: pointer;
+}
+.contact-form button:hover{
+  background-color: #452bea;
+}
