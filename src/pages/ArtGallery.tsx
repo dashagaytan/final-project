@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArtPieces } from "../data";
 import DreamTable from '../components/DreamTable'
-import data from "../data"
+
 
 export default function ArtGallery() {
   const [artPieces, setArtPieces] = useState(ArtPieces);
@@ -13,7 +13,7 @@ export default function ArtGallery() {
 
       <DreamTable artPieces={artPieces} onChange={setArtPieces} />
 
-      <h2>My Gallery</h2>
+      {/* <h2>My Gallery</h2> */}
 
     </div>
   );

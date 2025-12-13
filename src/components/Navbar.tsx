@@ -3,7 +3,7 @@ export default function Navbar(){
     return(
         <>
         <header className="navbar">
-            <div className="navbar-logo"> Dasha Gyatan 🎨 🖼️</div>
+            <div className="navbar-logo"> Dasha's Art Gallery 🎨 🖼️</div>
                 <nav className="navbar-links">
                     <NavLink to='/' end>Home Page</NavLink>
                     <NavLink to='/about' end>About Me</NavLink>
